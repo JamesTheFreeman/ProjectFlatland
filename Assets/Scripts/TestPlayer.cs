@@ -69,7 +69,7 @@ public class TestPlayer : MonoBehaviour
 
     private void calcDamage(int enemAtk) {
         // Calculate damage reduction percentage
-        float damReduc = Mathf.Floor(-25 + 16 * Mathf.Log(defense + 4.772f)) / 100;
+        float damReduc = Mathf.Floor(-25 + 16.2f * Mathf.Log(defense + 4.772f)) / 100;
         // Calculate the amount of damage left over after damage reduction is factored
         int damage = (int) Mathf.Round(enemAtk * (1 - damReduc));
         // Subtract the calculated damage from player health

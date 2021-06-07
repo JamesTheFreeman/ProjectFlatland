@@ -382,7 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: {x: 0, y: 0}
-  defense: 0
+  defense: 500
   attack: 0
   health: 100
 --- !u!61 &1395036507
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adf7ff81ff03890428c91b17f61f82b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack: 25
+  attack: 100
   defense: 0
   health: 0
 --- !u!212 &1659926849
